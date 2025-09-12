@@ -1,0 +1,59 @@
+/* Quinn Keenan, 301504914 - Assignment 3, Beetle Smasher Game - 22/06/2025 */
+
+html 
+{ 
+	 font-family: Calibri, Georgia, Helvetica; 
+	 background-color: #0BDA51;
+}
+
+header { height: 20%; }
+header #hContainer
+{
+	padding-top: 0.5em; 
+	height: 92.5%; width: 20%; 
+	float: left; 
+	text-align: center; 
+}
+header h1, header h3 { margin: 0 0;  }
+header #descContainer
+{
+	height: 100%; width: 47.5%;
+	float: left; 
+	text-align: center; 
+}
+header #btnContainer
+{
+	float: right;
+	margin-right: 1em;
+	height: 100%; width: 30%;
+}
+header button 
+{
+	height: 75%; width: 45.5%;
+	margin-top: 0.8em;
+	padding: 1em 0; 
+	background-color: #FFC300; 
+	font-family: Verdana, Calibri, Georgia, Helvetica;
+	font-weight: bold; 
+	font-size: 1em; 
+}
+header button:hover
+{
+	background-color: goldenrod;
+	cursor: pointer; 
+}
+header #newGame { margin-right: 1.8em;  }
+
+canvas 
+{ 
+	height: 80%; width: 100%;
+	background-image: url("Images/background.jpg"); 
+	border: 2.5px solid black; 
+}
+canvas:hover { cursor: pointer; }
+
+footer { text-align: center;  }
+footer h2 { margin: 0.5em 0 0.25em 0; }
+footer p, h6 { margin: 0 0 0.5em 0; } 
+footer a { color: #228B22; }
+footer a:hover, footer a:focus { color: darkgreen; }
